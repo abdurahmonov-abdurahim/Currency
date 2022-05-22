@@ -11,53 +11,57 @@
 </head>
 <body>
 
-  <div class="enter d-flex align-items-center justify-content-center mx-auto flex-column">
+  <div class="currencysite-container">
 
-    <h1 class="enter__heading">CHORSU DOLLAR POKUPAEM</h1>
+    <div class="enter d-flex align-items-center justify-content-center mx-auto flex-column">
 
-    <div class="enter__btn--wrapperd-flex align-items-center justify-content-center">
+      <h1 class="enter__heading">CHORSU DOLLAR POKUPAEM</h1>
 
-      <a class="enter__link text-decoration-none" href="https://instagram.com/abdurahimfoniy.writer/">Bizni ijtimoiy tarmoqdlarda kuzating1</a>
+      <div class="ms-2 enter__btn--wrapper d-flex align-items-center justify-content-center">
 
-      <button class="enter__btn btn btn-primary ms-3">Kursni Bilish</button>
+        <a class="enter__link text-decoration-none" href="https://instagram.com/abdurahimfoniy.writer/">Bizni ijtimoiy tarmoqdlarda kuzating1</a>
 
-    </div>
-
-  </div>
-
-
-  <!-- SECOND WINDOW -->
-  <div class="currency d-flex d-none justify-content-center align-items-center mx-auto text-center">
-
-    <form class="currency__form d-flex" action="">
-
-      <div class="currency__entering">
-
-        <h2 class="currency__title">Pul miqdorini kiriting:</h2>
-
-        <div class="input-group mb-3 mt-2">
-          <input type="text" id="currency__input" class="form-control" name="user_money" placeholder="100000000" required>
-
-          <select class="currency__select dropdown-menu-end form-select" name="currency" id="currency">
-
-            <option class="dropdown-item" value="uzsTousd">UZS -> USD</option>
-            <option value="uzsToeur">UZS -> EUR</option>
-            <option value="usdTouzs">USD -> UZS</option>
-            <option value="usdToeur">USD -> EUR</option>
-            <option value="eurTouzs">EUR -> UZS</option>
-            <option value="eurTousd">EUR -> USD</option>
-
-          </select>
-
-        </div>
-
-        <button class="currencyBtn" type="submit">Meni bosishni unutmang?!</button>
-
-        <p class="currency__result mt-4">0</p>
+        <button class="enter__btn btn btn-primary ms-3 mt-3">Kursni Bilish</button>
 
       </div>
 
-    </form>
+    </div>
+
+
+    <!-- SECOND WINDOW -->
+    <div class="currency d-flex d-none justify-content-center align-items-center mx-auto text-center">
+
+      <form class="currency__form d-flex" action="">
+
+        <div class="currency__entering">
+
+          <h2 class="currency__title">Pul miqdorini kiriting:</h2>
+
+          <div class="input-group mb-3 mt-2">
+            <input type="text" id="currency__input" class="form-control" name="user_money" placeholder="100000000" required>
+
+            <select class="currency__select dropdown-menu-end form-select" name="currency" id="currency">
+
+              <option class="dropdown-item" value="uzsTousd">UZS -> USD</option>
+              <option value="uzsToeur">UZS -> EUR</option>
+              <option value="usdTouzs">USD -> UZS</option>
+              <option value="usdToeur">USD -> EUR</option>
+              <option value="eurTouzs">EUR -> UZS</option>
+              <option value="eurTousd">EUR -> USD</option>
+
+            </select>
+
+          </div>
+
+          <button class="currencyBtn" type="submit">Meni bosishni unutmang?!</button>
+
+          <p class="currency__result mt-4">0</p>
+
+        </div>
+
+      </form>
+
+    </div>
 
   </div>
 
