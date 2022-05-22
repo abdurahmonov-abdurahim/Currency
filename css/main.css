@@ -68,7 +68,7 @@ body {
 
 .currency__entering{
   margin: 0 auto;
-  padding: 100px;
+  padding: 100px 15px;
   border-radius: 10px;
   background-color: #ffffff6e;
 }
