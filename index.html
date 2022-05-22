@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Java Chorsu Dollar Pokupaem</title>
+</head>
+<body>
+
+  <div class="enter d-flex align-items-center justify-content-center mx-auto flex-column">
+
+    <h1 class="enter__heading">CHORSU DOLLAR POKUPAEM</h1>
+
+    <div class="enter__btn--wrapperd-flex align-items-center justify-content-center">
+
+      <a class="enter__link text-decoration-none" href="https://instagram.com/abdurahimfoniy.writer/">Bizni ijtimoiy tarmoqdlarda kuzating1</a>
+
+      <button class="enter__btn btn btn-primary ms-3">Kursni Bilish</button>
+
+    </div>
+
+  </div>
+
+
+  <!-- SECOND WINDOW -->
+  <div class="currency d-flex d-none justify-content-center align-items-center mx-auto text-center">
+
+    <form class="currency__form d-flex" action="">
+
+      <div class="currency__entering">
+
+        <h2 class="currency__title">Pul miqdorini kiriting:</h2>
+
+        <div class="input-group mb-3 mt-2">
+          <input type="text" id="currency__input" class="form-control" name="user_money" placeholder="100000000" required>
+
+          <select class="currency__select dropdown-menu-end form-select" name="currency" id="currency">
+
+            <option class="dropdown-item" value="uzsTousd">UZS -> USD</option>
+            <option value="uzsToeur">UZS -> EUR</option>
+            <option value="usdTouzs">USD -> UZS</option>
+            <option value="usdToeur">USD -> EUR</option>
+            <option value="eurTouzs">EUR -> UZS</option>
+            <option value="eurTousd">EUR -> USD</option>
+
+          </select>
+
+        </div>
+
+        <button class="currencyBtn" type="submit">Hisoblasammikn?!</button>
+
+        <p class="currency__result mt-4">0</p>
+
+      </div>
+
+    </form>
+
+  </div>
+
+  <script src="./js/script.js"></script>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
