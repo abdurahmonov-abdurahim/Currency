@@ -93,27 +93,27 @@ elCurrencyBtn.addEventListener ( 'click', function (evt){
     elResult.textContent = `${exchangeCurrency} EUR`;
 
   } else if ( userCurrency ==  "uzsTocny") {
-    let exchangeCurrency = Math.round(resultCurrency * 1660.11 );
+    let exchangeCurrency = Math.round(resultCurrency / 1660.11 );
 
     elResult.textContent = `${exchangeCurrency} Yuan`;
 
   } else if ( userCurrency ==  "uzsTorub") {
-    let exchangeCurrency = Math.round(resultCurrency * 84.11 );
+    let exchangeCurrency = Math.round(resultCurrency / 84.11 );
 
     elResult.textContent = `${exchangeCurrency} Rubl`;
 
   } else if ( userCurrency ==  "uzsTokwd") {
-    let exchangeCurrency = Math.round(resultCurrency * 36277.62 );
+    let exchangeCurrency = Math.round(resultCurrency / 36277.62 );
 
     elResult.textContent = `${exchangeCurrency} Dinor (Quvayt)`;
 
   } else if ( userCurrency ==  "uzsToaed") {
-    let exchangeCurrency = Math.round(resultCurrency * 3025 );
+    let exchangeCurrency = Math.round(resultCurrency / 3025 );
 
     elResult.textContent = `${exchangeCurrency} Dinor (BAA)`;
 
   } else if ( userCurrency ==  "uzsTogbp") {
-    let exchangeCurrency = Math.round(resultCurrency * 13876.67 );
+    let exchangeCurrency = Math.round(resultCurrency / 13876.67 );
 
     elResult.textContent = `${exchangeCurrency} Funt`;
 
