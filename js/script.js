@@ -98,7 +98,7 @@ elCurrencyBtn.addEventListener ( 'click', function (evt){
     elResult.textContent = `${exchangeCurrency} Yuan`;
 
   } else if ( userCurrency ==  "uzsTorub") {
-    let exchangeCurrency = Math.round(resultCurrency / 84.11 );
+    let exchangeCurrency = Math.round(resultCurrency / 186.66 );
 
     elResult.textContent = `${exchangeCurrency} Rubl`;
 
